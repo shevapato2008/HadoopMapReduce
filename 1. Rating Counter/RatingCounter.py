@@ -11,6 +11,8 @@ class MRRatingCounter(MRJob):
 if __name__ == '__main__':
     MRRatingCounter.run()
 
+
+
 '''
 Download the ml-100k.zip file from http://grouplens.org/datasets/movielens/.
 Unzip it and put it in the same folder as python code.
