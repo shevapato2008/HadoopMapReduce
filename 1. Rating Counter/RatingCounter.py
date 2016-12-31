@@ -4,6 +4,7 @@ class MRRatingCounter(MRJob):
     def mapper(self, key, line):
         (userID, movieID, rating, timestamp) = line.split('\t')
         yield rating, 1                     # key/value pair created by mapper
+                                            # mapper will also sort and group the key/value pair
 
     def reducer(self, rating, occurences):
         yield rating, sum(occurences)
