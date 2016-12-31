@@ -27,7 +27,7 @@ class MRWordFrequencyCount(MRJob):
         yield '%04d'%int(count), word                           # group words by count and sort count
 
     def reducer_output_words(self, count, words):
-        for word in words:
+        for word in words:                                      # output one word for each line
             yield count, word
 
 if __name__ == '__main__':
