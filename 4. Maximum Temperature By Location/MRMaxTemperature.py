@@ -23,7 +23,7 @@ if __name__ == '__main__':
 '''
 import os
 os.chdir("..")
-cd 3. Minimum Temperature By Location
+cd 4. Maximum Temperature By Location
 
 !python MRMaxTemperature.py 1800.csv > maxtemps.txt
 '''

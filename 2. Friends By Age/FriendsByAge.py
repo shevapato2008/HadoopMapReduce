@@ -18,6 +18,9 @@ if __name__ == '__main__':
     MRFriendsByAge.run()
 
 '''
-Run the following command in Python Console.
+Run the following commands in Python Console.
+import os
+os.chdir("..")
+cd 2. Friends By Age
 !python FriendsByAge.py fakefriends.csv > friendsbyage.txt
 '''

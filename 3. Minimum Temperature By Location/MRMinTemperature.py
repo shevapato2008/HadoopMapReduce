@@ -20,8 +20,9 @@ if __name__ == '__main__':
     MRMinTemperature.run()
 
 '''
+Run the following commands in Python Console.
 import os
 os.chdir("..")
-
+cd 3. Minimum Temperature By Location
 !python MRMinTemperature.py 1800.csv > mintemps.txt
 '''
