@@ -18,6 +18,5 @@ if __name__ == '__main__':
 import os
 os.chdir("..")
 cd 5. Word Count
-
 !python WordFrequency.py Book.txt > wordcount.txt
 '''
