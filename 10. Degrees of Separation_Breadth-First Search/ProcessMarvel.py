@@ -24,11 +24,15 @@ with open("BFS-iteration-0.txt", 'w') as out:       # output file
                 distance = 0
 
             if (heroID != ''):
-                edges = ','.join(connections)                               # separate all neighbors with ','
-                outStr = '|'.join((heroID, edges, str(distance), color))    # join
+                edges = ','.join(connections)                               # join all neighbors with ','
+                outStr = '|'.join((heroID, edges, str(distance), color))    # join the new fields with '|'
                 out.write(outStr)
                 out.write("\n")
 
     f.close()
 
 out.close()
+
+'''
+!python ProcessMarvel.py 2548
+'''
