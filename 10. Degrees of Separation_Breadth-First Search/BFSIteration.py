@@ -88,3 +88,8 @@ class MRBFSIteration(MRJob):
 
 if __name__ == '__main__':
     MRBFSIteration.run()
+
+'''
+!python BFSIteration.py --target=100 BFS-iteration-0.txt > BFS-iteration-1.txt
+!python BFSIteration.py --target=100 BFS-iteration-1.txt > BFS-iteration-2.txt
+'''
