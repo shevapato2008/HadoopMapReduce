@@ -5,7 +5,7 @@
 # !python MovieSimilarities.py -r emr --items=ml-100k/u.item ml-100k/u.data
 
 # To run on 4 EMR nodes:
-#!python MovieSimilarities.py -r emr --num-ec2-instances=4 --items=ml-100k/u.item ml-100k/u.data
+# !python MovieSimilarities.py -r emr --num-ec2-instances=4 --items=ml-100k/u.item ml-100k/u.data
 
 # Troubleshooting EMR jobs (subsitute your job ID):
 # !python -m mrjob.tools.emr.fetch_logs --find-failure j-1NXMMBNEQHAFT
